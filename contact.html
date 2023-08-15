@@ -66,37 +66,39 @@
         </li>
       </ul>
     </div>
-    <form class="send-mail">
-      <h1 style="text-decoration: underline">Get In Touch</h1>
-      <div>
-        <label for="input-name">Name</label>
-        <input type="text" id="input-name" required placeholder="Name" />
-      </div>
-      <div>
-        <label for="input-email">Email</label>
-        <input type="email" id="input-email" required placeholder="Email" />
-      </div>
-      <div>
-        <label for="input-phone" required>Phone Number</label>
-        <input type="tel" id="input-phone" placeholder="Phone Number" />
-      </div>
-      <div>
-        <label for="input-subject">Subject</label>
-        <select id="input-subject">
-          <option value="" hidden>select</option>
-          <option value="fe">Frontend</option>
-          <option value="be">Backend</option>
-          <option value="full">FullStack</option>
-        </select>
-      </div>
-      <div>
-        <label for="input-message">Send Your Message</label>
-        <textarea cols="30" rows="10" id="input-message"></textarea>
-      </div>
-      <div>
-        <button type="button" onclick="submitHandler()">submit</button>
-      </div>
-    </form>
+    <div class="send-mail">
+      <form>
+        <h1 style="text-decoration: underline">Get In Touch</h1>
+        <div>
+          <label for="input-name">Name</label>
+          <input type="text" id="input-name" required placeholder="Name" />
+        </div>
+        <div>
+          <label for="input-email">Email</label>
+          <input type="email" id="input-email" required placeholder="Email" />
+        </div>
+        <div>
+          <label for="input-phone" required>Phone Number</label>
+          <input type="tel" id="input-phone" placeholder="Phone Number" />
+        </div>
+        <div>
+          <label for="input-subject">Subject</label>
+          <select id="input-subject">
+            <option value="" hidden>select</option>
+            <option value="fe">Frontend</option>
+            <option value="be">Backend</option>
+            <option value="full">FullStack</option>
+          </select>
+        </div>
+        <div>
+          <label for="input-message">Send Your Message</label>
+          <textarea cols="30" rows="10" id="input-message"></textarea>
+        </div>
+        <div class="send-button">
+          <button type="button" onclick="submitHandler()">submit</button>
+        </div>
+      </form>
+    </div>
     <script src="script/contact.js"></script>
     <script src="script/navbar.js"></script>
   </body>
