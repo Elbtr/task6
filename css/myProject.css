@@ -192,3 +192,28 @@ span {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .upload-project {
+    width: 280px;
+  }
+
+  form {
+    width: 100vw;
+    padding: 2px;
+  }
+  .list-project {
+    overflow-y: hidden;
+    margin: 10px auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .list-project .card {
+    width: 300px;
+  }
+  .upload-project form .item-input-technologies div div label {
+    width: 100%;
+  }
+}
