@@ -5,7 +5,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
+/* 
 .send-mail form h1 {
   margin-bottom: 20px;
 }
@@ -32,8 +32,8 @@ textarea {
 ::placeholder {
   color: white;
   opacity: 0.8; /* Firefox */
-}
-select option {
+/* } 
+/* select option {
   background-color: rgb(219, 214, 214);
   color: black;
   border: none;
@@ -73,4 +73,57 @@ button:hover {
     padding: 10px;
     display: none;
   }
+} */
+
+.container-contact {
+  margin: 90px auto;
+  width: 800px;
+}
+
+.item-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-form form div {
+  margin-bottom: 10px;
+}
+
+.item-form form div input,
+label,
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+.item-form form div textarea {
+  border: none;
+  box-shadow: 0 0 2px 0;
+  border-radius: 8px;
+  padding: 6px 5px;
+}
+
+.item-form form div input {
+  border: none;
+  box-shadow: 0 0 2px 0;
+  border-radius: 8px;
+  padding: 6px 5px;
+}
+
+.item-form form .send-button {
+  border-radius: 6px;
+  width: 100%;
+}
+
+.item-form form .send-button div {
+  display: flex;
+  justify-content: end;
+}
+
+.item-form form .send-button div button {
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
 }
